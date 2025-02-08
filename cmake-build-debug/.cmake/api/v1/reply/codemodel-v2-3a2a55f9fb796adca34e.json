@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "prueba1_omp",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "prueba1_omp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prueba1_omp-Debug-665e52466186afbde4a3.json",
+					"name" : "prueba1_omp",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug",
+		"source" : "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

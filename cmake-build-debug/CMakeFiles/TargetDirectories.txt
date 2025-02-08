@@ -1,0 +1,3 @@
+C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/prueba1_omp.dir
+C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
