@@ -4,8 +4,13 @@
 
 int main()
 {
-    int v[8] = {0, 1, 2, 3, 4, 5, 6, 7};
-    int numHilos = std::size(v) / 2;
+    int n = 8;
+    
+    int v[n];
+    for (int i = 0; i < n; ++i) {
+        v[i] = i;
+    }
+    int numHilos = n / 2;
     printf("numHilos: %d\n", numHilos);
 
     while (numHilos > 0){
@@ -17,12 +22,15 @@ int main()
         }
         numHilos = numHilos / 2;
 
-        for (int i = 0; i < std::size(v); ++i)
+        if (numHilos == 1 & n%2 != 0){
+            v[0] = v[0] + v[n-1];
+        }
+
+        for (int i = 0; i < n; ++i)
         {
             printf("%d ", v[i]);
         }
         printf("\n");
     }
-
     return 0;
 }
