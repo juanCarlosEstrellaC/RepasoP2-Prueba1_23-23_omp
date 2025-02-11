@@ -1,36 +1,47 @@
 #include <iostream>
-#include <iterator>
 #include <omp.h>
+
+void imprimir(float v[], int N)
+{
+    for (int i = 0; i < N; ++i)
+    {
+        printf("%.1f ", v[i]);
+    }
+    printf("\n");
+}
 
 int main()
 {
-    int n = 8;
-    
-    int v[n];
-    for (int i = 0; i < n; ++i) {
-        v[i] = i;
-    }
-    int numHilos = n / 2;
-    printf("numHilos: %d\n", numHilos);
+    int N = 9;
+    printf("N: %d\n", N);
 
-    while (numHilos > 0){
-#pragma omp parallel num_threads(numHilos)
+    float v[N];
+    for (int i = 0; i < N; ++i)
+    {
+        v[i] = static_cast<float>(i);
+    }
+    //int numHilos = (N % 2 == 0) ? N / 2 : N / 2 + 1;
+    int numHilos = N/2;
+    printf("numHilos: %d\n", numHilos);
+    imprimir(v, N);
+
+    while (numHilos > 0)
+    {
+#pragma omp parallel default(none) shared(numHilos, N, v) num_threads(numHilos)
         {
             int idHilo = omp_get_thread_num();
-            printf("idHilo: %d\n", idHilo);
-            v[idHilo] = v[idHilo] + v[idHilo + numHilos];
+            //printf("idHilo: %d\n", idHilo);
+            if (idHilo + numHilos < N)
+            {
+                v[idHilo] = v[idHilo] + v[idHilo + numHilos];
+            }
         }
         numHilos = numHilos / 2;
 
-        if (numHilos == 1 & n%2 != 0){
-            v[0] = v[0] + v[n-1];
+        if (numHilos == 1 & N%2 != 0){
+            v[0] = v[0] + v[N-1];
         }
-
-        for (int i = 0; i < n; ++i)
-        {
-            printf("%d ", v[i]);
-        }
-        printf("\n");
+        imprimir(v, N);
     }
     return 0;
 }

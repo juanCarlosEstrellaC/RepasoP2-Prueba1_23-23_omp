@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s670y6"
-      binary: "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s670y6"
+      source: "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-szd4n6"
+      binary: "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-szd4n6"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,10 +71,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s670y6'
+        Change Dir: 'C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-szd4n6'
         
-        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3/bin/ninja/win/x64/ninja.exe" -v cmTC_2c6fd
-        [1/2] C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_2c6fd.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/JetBrains/CLion 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c"
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3/bin/ninja/win/x64/ninja.exe" -v cmTC_69e4f
+        [1/2] C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_69e4f.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/JetBrains/CLion 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c"
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\gcc.exe
         OFFLOAD_TARGET_NAMES=nvptx-none
@@ -83,8 +83,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r2) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_2c6fd.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2c6fd.dir/'
-         C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1.exe -quiet -v -iprefix C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_2c6fd.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\Lap\\AppData\\Local\\Temp\\cce0mY7V.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_69e4f.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_69e4f.dir/'
+         C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1.exe -quiet -v -iprefix C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_69e4f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\Lap\\AppData\\Local\\Temp\\cc0c50Ga.s
         GNU C17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r2) version 14.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 14.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -103,13 +103,13 @@ events:
          C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: 083cdfdb36f80abb23036714270fd518
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_2c6fd.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2c6fd.dir/'
-         C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_2c6fd.dir/CMakeCCompilerABI.c.obj C:\\Users\\Lap\\AppData\\Local\\Temp\\cce0mY7V.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_69e4f.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_69e4f.dir/'
+         C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_69e4f.dir/CMakeCCompilerABI.c.obj C:\\Users\\Lap\\AppData\\Local\\Temp\\cc0c50Ga.s
         GNU assembler version 2.43.1 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r2) 2.43.1
         COMPILER_PATH=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/;C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../\x0d
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_2c6fd.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2c6fd.dir/CMakeCCompilerABI.c.'\x0d
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\gcc.exe  -v -Wl,-v CMakeFiles/cmTC_2c6fd.dir/CMakeCCompilerABI.c.obj -o cmTC_2c6fd.exe -Wl,--out-implib,libcmTC_2c6fd.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_69e4f.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_69e4f.dir/CMakeCCompilerABI.c.'\x0d
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\gcc.exe  -v -Wl,-v CMakeFiles/cmTC_69e4f.dir/CMakeCCompilerABI.c.obj -o cmTC_69e4f.exe -Wl,--out-implib,libcmTC_69e4f.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe
@@ -121,12 +121,12 @@ events:
         gcc version 14.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r2) 
         COMPILER_PATH=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/;C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2c6fd.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2c6fd.'
-         C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Lap\\AppData\\Local\\Temp\\ccaIUyif.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_2c6fd.exe C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v CMakeFiles/cmTC_2c6fd.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_2c6fd.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_69e4f.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_69e4f.'
+         C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Lap\\AppData\\Local\\Temp\\ccs5QwuF.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_69e4f.exe C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v CMakeFiles/cmTC_69e4f.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_69e4f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
         collect2 version 14.2.0
-        C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Lap\\AppData\\Local\\Temp\\ccaIUyif.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_2c6fd.exe C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v CMakeFiles/cmTC_2c6fd.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_2c6fd.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
+        C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Lap\\AppData\\Local\\Temp\\ccs5QwuF.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_69e4f.exe C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v CMakeFiles/cmTC_69e4f.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_69e4f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
         GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r2) 2.43.1\x0d
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2c6fd.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2c6fd.'\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_69e4f.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_69e4f.'\x0d
         
       exitCode: 0
   -
@@ -161,10 +161,10 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1  23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s670y6']
+        ignore line: [Change Dir: 'C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1  23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-szd4n6']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3/bin/ninja/win/x64/ninja.exe" -v cmTC_2c6fd]
-        ignore line: [[1/2] C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_2c6fd.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/JetBrains/CLion 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3/bin/ninja/win/x64/ninja.exe" -v cmTC_69e4f]
+        ignore line: [[1/2] C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_69e4f.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/JetBrains/CLion 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\gcc.exe]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -173,8 +173,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.2.0 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r2) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_2c6fd.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2c6fd.dir/']
-        ignore line: [ C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1.exe -quiet -v -iprefix C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_2c6fd.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\Lap\\AppData\\Local\\Temp\\cce0mY7V.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_69e4f.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_69e4f.dir/']
+        ignore line: [ C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1.exe -quiet -v -iprefix C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_69e4f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\Lap\\AppData\\Local\\Temp\\cc0c50Ga.s]
         ignore line: [GNU C17 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r2) version 14.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -193,8 +193,8 @@ events:
         ignore line: [ C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 083cdfdb36f80abb23036714270fd518]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_2c6fd.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2c6fd.dir/']
-        ignore line: [ C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_2c6fd.dir/CMakeCCompilerABI.c.obj C:\\Users\\Lap\\AppData\\Local\\Temp\\cce0mY7V.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_69e4f.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_69e4f.dir/']
+        ignore line: [ C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_69e4f.dir/CMakeCCompilerABI.c.obj C:\\Users\\Lap\\AppData\\Local\\Temp\\cc0c50Ga.s]
         ignore line: [GNU assembler version 2.43.1 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64  built by Brecht Sanders  r2) 2.43.1]
         ignore line: [COMPILER_PATH=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/]
         ignore line: [C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/]
@@ -205,8 +205,8 @@ events:
         ignore line: [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
         ignore line: [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../\x0d]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_2c6fd.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2c6fd.dir/CMakeCCompilerABI.c.'\x0d]
-        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\gcc.exe  -v -Wl -v CMakeFiles/cmTC_2c6fd.dir/CMakeCCompilerABI.c.obj -o cmTC_2c6fd.exe -Wl --out-implib libcmTC_2c6fd.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_69e4f.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_69e4f.dir/CMakeCCompilerABI.c.'\x0d]
+        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\gcc.exe  -v -Wl -v CMakeFiles/cmTC_69e4f.dir/CMakeCCompilerABI.c.obj -o cmTC_69e4f.exe -Wl --out-implib libcmTC_69e4f.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe]
@@ -225,13 +225,13 @@ events:
         ignore line: [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
         ignore line: [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2c6fd.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2c6fd.']
-        link line: [ C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Lap\\AppData\\Local\\Temp\\ccaIUyif.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_2c6fd.exe C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v CMakeFiles/cmTC_2c6fd.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_2c6fd.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_69e4f.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_69e4f.']
+        link line: [ C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Lap\\AppData\\Local\\Temp\\ccs5QwuF.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_69e4f.exe C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v CMakeFiles/cmTC_69e4f.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_69e4f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
           arg [C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\Lap\\AppData\\Local\\Temp\\ccaIUyif.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Lap\\AppData\\Local\\Temp\\ccs5QwuF.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -253,7 +253,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_2c6fd.exe] ==> ignore
+          arg [cmTC_69e4f.exe] ==> ignore
           arg [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o] ==> obj [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o]
           arg [-LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0] ==> dir [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0]
@@ -263,9 +263,9 @@ events:
           arg [-LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..] ==> dir [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_2c6fd.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_69e4f.dir/CMakeCCompilerABI.c.obj] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_2c6fd.dll.a] ==> ignore
+          arg [libcmTC_69e4f.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -347,8 +347,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-sgcden"
-      binary: "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-sgcden"
+      source: "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ga2h5b"
+      binary: "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ga2h5b"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -358,10 +358,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-sgcden'
+        Change Dir: 'C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ga2h5b'
         
-        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3/bin/ninja/win/x64/ninja.exe" -v cmTC_bb922
-        [1/2] C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\c++.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_bb922.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/JetBrains/CLion 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3/bin/ninja/win/x64/ninja.exe" -v cmTC_fa060
+        [1/2] C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\c++.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_fa060.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/JetBrains/CLion 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\c++.exe
         OFFLOAD_TARGET_NAMES=nvptx-none
@@ -370,8 +370,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r2) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_bb922.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_bb922.dir/'
-         C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_bb922.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\Lap\\AppData\\Local\\Temp\\cc0nYxua.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_fa060.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fa060.dir/'
+         C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_fa060.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\Lap\\AppData\\Local\\Temp\\ccF1uD46.s
         GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r2) version 14.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 14.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -396,13 +396,13 @@ events:
          C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: 0a151f404c3e06bb380959acc81ec24d
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_bb922.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_bb922.dir/'
-         C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_bb922.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\Lap\\AppData\\Local\\Temp\\cc0nYxua.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_fa060.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fa060.dir/'
+         C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_fa060.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\Lap\\AppData\\Local\\Temp\\ccF1uD46.s
         GNU assembler version 2.43.1 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r2) 2.43.1
         COMPILER_PATH=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/;C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../\x0d
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_bb922.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_bb922.dir/CMakeCXXCompilerABI.cpp.'\x0d
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\c++.exe  -v -Wl,-v CMakeFiles/cmTC_bb922.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_bb922.exe -Wl,--out-implib,libcmTC_bb922.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_fa060.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fa060.dir/CMakeCXXCompilerABI.cpp.'\x0d
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\c++.exe  -v -Wl,-v CMakeFiles/cmTC_fa060.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_fa060.exe -Wl,--out-implib,libcmTC_fa060.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\c++.exe
         COLLECT_LTO_WRAPPER=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe
@@ -414,12 +414,12 @@ events:
         gcc version 14.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r2) 
         COMPILER_PATH=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/;C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bb922.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_bb922.'
-         C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Lap\\AppData\\Local\\Temp\\ccgihLT9.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_bb922.exe C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v CMakeFiles/cmTC_bb922.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_bb922.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fa060.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_fa060.'
+         C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Lap\\AppData\\Local\\Temp\\ccS1cMYq.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_fa060.exe C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v CMakeFiles/cmTC_fa060.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_fa060.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
         collect2 version 14.2.0
-        C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Lap\\AppData\\Local\\Temp\\ccgihLT9.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_bb922.exe C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v CMakeFiles/cmTC_bb922.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_bb922.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
+        C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Lap\\AppData\\Local\\Temp\\ccS1cMYq.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_fa060.exe C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v CMakeFiles/cmTC_fa060.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_fa060.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
         GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r2) 2.43.1\x0d
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bb922.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_bb922.'\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fa060.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_fa060.'\x0d
         
       exitCode: 0
   -
@@ -460,10 +460,10 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1  23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-sgcden']
+        ignore line: [Change Dir: 'C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1  23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ga2h5b']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3/bin/ninja/win/x64/ninja.exe" -v cmTC_bb922]
-        ignore line: [[1/2] C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\c++.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_bb922.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/JetBrains/CLion 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3/bin/ninja/win/x64/ninja.exe" -v cmTC_fa060]
+        ignore line: [[1/2] C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\c++.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_fa060.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/JetBrains/CLion 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\c++.exe]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -472,8 +472,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.2.0 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r2) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_bb922.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_bb922.dir/']
-        ignore line: [ C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_bb922.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\Lap\\AppData\\Local\\Temp\\cc0nYxua.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_fa060.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fa060.dir/']
+        ignore line: [ C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_fa060.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\Lap\\AppData\\Local\\Temp\\ccF1uD46.s]
         ignore line: [GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r2) version 14.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -498,8 +498,8 @@ events:
         ignore line: [ C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 0a151f404c3e06bb380959acc81ec24d]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_bb922.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_bb922.dir/']
-        ignore line: [ C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_bb922.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\Lap\\AppData\\Local\\Temp\\cc0nYxua.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_fa060.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fa060.dir/']
+        ignore line: [ C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_fa060.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\Lap\\AppData\\Local\\Temp\\ccF1uD46.s]
         ignore line: [GNU assembler version 2.43.1 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64  built by Brecht Sanders  r2) 2.43.1]
         ignore line: [COMPILER_PATH=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/]
         ignore line: [C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/]
@@ -510,8 +510,8 @@ events:
         ignore line: [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
         ignore line: [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../\x0d]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_bb922.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_bb922.dir/CMakeCXXCompilerABI.cpp.'\x0d]
-        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\c++.exe  -v -Wl -v CMakeFiles/cmTC_bb922.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_bb922.exe -Wl --out-implib libcmTC_bb922.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_fa060.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fa060.dir/CMakeCXXCompilerABI.cpp.'\x0d]
+        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\c++.exe  -v -Wl -v CMakeFiles/cmTC_fa060.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_fa060.exe -Wl --out-implib libcmTC_fa060.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\c++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe]
@@ -530,13 +530,13 @@ events:
         ignore line: [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
         ignore line: [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bb922.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_bb922.']
-        link line: [ C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Lap\\AppData\\Local\\Temp\\ccgihLT9.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_bb922.exe C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v CMakeFiles/cmTC_bb922.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_bb922.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fa060.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_fa060.']
+        link line: [ C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Lap\\AppData\\Local\\Temp\\ccS1cMYq.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_fa060.exe C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v CMakeFiles/cmTC_fa060.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_fa060.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
           arg [C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\Lap\\AppData\\Local\\Temp\\ccgihLT9.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Lap\\AppData\\Local\\Temp\\ccS1cMYq.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -558,7 +558,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_bb922.exe] ==> ignore
+          arg [cmTC_fa060.exe] ==> ignore
           arg [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o] ==> obj [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o]
           arg [-LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0] ==> dir [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0]
@@ -568,9 +568,9 @@ events:
           arg [-LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..] ==> dir [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_bb922.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_fa060.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_bb922.dll.a] ==> ignore
+          arg [libcmTC_fa060.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -642,10 +642,6 @@ events:
     message: |
       Running the CXX compiler's linker: "Configured with: ../configure --prefix=/R/winlibs_staging_ucrt64/inst_gcc-14.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r2' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-mpfr=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-gmp=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-isl=/c/Prog/winlibs_staging_ucrt/custombuilt64 --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs_staging_ucrt64/gcc-14.2.0/build_mingw/mingw-w64 CFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -I/c/Prog/winlibs_staging_ucrt/custombuilt64/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/c/Prog/winlibs_staging_ucrt/custombuilt64/share/binutils/bin/ld.exe" "--version"
       
-...
-
----
-events:
   -
     kind: "try_compile-v1"
     backtrace:
@@ -654,8 +650,8 @@ events:
       - "CMakeLists.txt:6 (find_package)"
     description: "Detecting C OpenMP compiler info"
     directories:
-      source: "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8nvm7y"
-      binary: "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8nvm7y"
+      source: "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lwfttq"
+      binary: "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lwfttq"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -664,10 +660,10 @@ events:
       variable: "OpenMP_COMPILE_RESULT_C_fopenmp"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8nvm7y'
+        Change Dir: 'C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lwfttq'
         
-        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/ninja/win/x64/ninja.exe -v cmTC_90ee4
-        [1/2] C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\gcc.exe   -fopenmp -v -o CMakeFiles/cmTC_90ee4.dir/OpenMPTryFlag.c.obj -c "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8nvm7y/OpenMPTryFlag.c"
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3/bin/ninja/win/x64/ninja.exe" -v cmTC_c64c0
+        [1/2] C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\gcc.exe   -fopenmp -v -fdiagnostics-color=always -o CMakeFiles/cmTC_c64c0.dir/OpenMPTryFlag.c.obj -c "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lwfttq/OpenMPTryFlag.c"
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\gcc.exe
         OFFLOAD_TARGET_NAMES=nvptx-none
@@ -676,8 +672,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r2) 
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_90ee4.dir/OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_90ee4.dir/'
-         C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1.exe -quiet -v -iprefix C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_MT -D_REENTRANT -U_REENTRANT C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8nvm7y/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_90ee4.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -mthreads -version -fopenmp -o C:\\Users\\Lap\\AppData\\Local\\Temp\\ccvJn98L.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c64c0.dir/OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_c64c0.dir/'
+         C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1.exe -quiet -v -iprefix C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_MT -D_REENTRANT -U_REENTRANT C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lwfttq/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_c64c0.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -mthreads -version -fdiagnostics-color=always -fopenmp -o C:\\Users\\Lap\\AppData\\Local\\Temp\\ccffEvNv.s
         GNU C17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r2) version 14.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 14.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -696,13 +692,13 @@ events:
          C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: 083cdfdb36f80abb23036714270fd518
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_90ee4.dir/OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_90ee4.dir/'
-         C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_90ee4.dir/OpenMPTryFlag.c.obj C:\\Users\\Lap\\AppData\\Local\\Temp\\ccvJn98L.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c64c0.dir/OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_c64c0.dir/'
+         C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_c64c0.dir/OpenMPTryFlag.c.obj C:\\Users\\Lap\\AppData\\Local\\Temp\\ccffEvNv.s
         GNU assembler version 2.43.1 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r2) 2.43.1
         COMPILER_PATH=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/;C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
-        LIBRARY_PATH=C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../\x0d
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_90ee4.dir/OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_90ee4.dir/OpenMPTryFlag.c.'\x0d
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\gcc.exe -fopenmp -v  CMakeFiles/cmTC_90ee4.dir/OpenMPTryFlag.c.obj -o cmTC_90ee4.exe -Wl,--out-implib,libcmTC_90ee4.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -v  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        LIBRARY_PATH=C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c64c0.dir/OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_c64c0.dir/OpenMPTryFlag.c.'\x0d
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\gcc.exe -fopenmp -v  CMakeFiles/cmTC_c64c0.dir/OpenMPTryFlag.c.obj -o cmTC_c64c0.exe -Wl,--out-implib,libcmTC_c64c0.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -v  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe
@@ -715,9 +711,9 @@ events:
         COMPILER_PATH=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/;C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
         Reading specs from C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/libgomp.spec
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_90ee4.exe' '-v' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_90ee4.'
-         C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Lap\\AppData\\Local\\Temp\\ccvrdDTZ.res -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_90ee4.exe C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. CMakeFiles/cmTC_90ee4.dir/OpenMPTryFlag.c.obj --out-implib libcmTC_90ee4.dll.a --major-image-version 0 --minor-image-version 0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -lgomp -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o\x0d
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_90ee4.exe' '-v' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_90ee4.'\x0d
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_c64c0.exe' '-v' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_c64c0.'
+         C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Lap\\AppData\\Local\\Temp\\cc9XOsQT.res -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_c64c0.exe C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. CMakeFiles/cmTC_c64c0.dir/OpenMPTryFlag.c.obj --out-implib libcmTC_c64c0.dll.a --major-image-version 0 --minor-image-version 0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -lgomp -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o\x0d
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_c64c0.exe' '-v' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_c64c0.'\x0d
         
       exitCode: 0
   -
@@ -729,10 +725,10 @@ events:
     message: |
       Parsed C OpenMP implicit link information from above output:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1  23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8nvm7y']
+        ignore line: [Change Dir: 'C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1  23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lwfttq']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/ninja/win/x64/ninja.exe -v cmTC_90ee4]
-        ignore line: [[1/2] C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\gcc.exe   -fopenmp -v -o CMakeFiles/cmTC_90ee4.dir/OpenMPTryFlag.c.obj -c "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1  23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8nvm7y/OpenMPTryFlag.c"]
+        ignore line: [Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3/bin/ninja/win/x64/ninja.exe" -v cmTC_c64c0]
+        ignore line: [[1/2] C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\gcc.exe   -fopenmp -v -fdiagnostics-color=always -o CMakeFiles/cmTC_c64c0.dir/OpenMPTryFlag.c.obj -c "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1  23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lwfttq/OpenMPTryFlag.c"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\gcc.exe]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -741,8 +737,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.2.0 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r2) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_90ee4.dir/OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_90ee4.dir/']
-        ignore line: [ C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1.exe -quiet -v -iprefix C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_MT -D_REENTRANT -U_REENTRANT C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1  23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8nvm7y/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_90ee4.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -mthreads -version -fopenmp -o C:\\Users\\Lap\\AppData\\Local\\Temp\\ccvJn98L.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c64c0.dir/OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_c64c0.dir/']
+        ignore line: [ C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1.exe -quiet -v -iprefix C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_MT -D_REENTRANT -U_REENTRANT C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1  23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lwfttq/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_c64c0.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -mthreads -version -fdiagnostics-color=always -fopenmp -o C:\\Users\\Lap\\AppData\\Local\\Temp\\ccffEvNv.s]
         ignore line: [GNU C17 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r2) version 14.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -761,8 +757,8 @@ events:
         ignore line: [ C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 083cdfdb36f80abb23036714270fd518]
-        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_90ee4.dir/OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_90ee4.dir/']
-        ignore line: [ C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_90ee4.dir/OpenMPTryFlag.c.obj C:\\Users\\Lap\\AppData\\Local\\Temp\\ccvJn98L.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c64c0.dir/OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_c64c0.dir/']
+        ignore line: [ C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_c64c0.dir/OpenMPTryFlag.c.obj C:\\Users\\Lap\\AppData\\Local\\Temp\\ccffEvNv.s]
         ignore line: [GNU assembler version 2.43.1 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64  built by Brecht Sanders  r2) 2.43.1]
         ignore line: [COMPILER_PATH=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/]
         ignore line: [C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/]
@@ -772,9 +768,9 @@ events:
         ignore line: [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
         ignore line: [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
         ignore line: [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
-        ignore line: [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../\x0d]
-        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_90ee4.dir/OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_90ee4.dir/OpenMPTryFlag.c.'\x0d]
-        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\gcc.exe -fopenmp -v  CMakeFiles/cmTC_90ee4.dir/OpenMPTryFlag.c.obj -o cmTC_90ee4.exe -Wl --out-implib libcmTC_90ee4.dll.a -Wl --major-image-version 0 --minor-image-version 0  -v  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."]
+        ignore line: [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c64c0.dir/OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_c64c0.dir/OpenMPTryFlag.c.'\x0d]
+        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\gcc.exe -fopenmp -v  CMakeFiles/cmTC_c64c0.dir/OpenMPTryFlag.c.obj -o cmTC_c64c0.exe -Wl --out-implib libcmTC_c64c0.dll.a -Wl --major-image-version 0 --minor-image-version 0  -v  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe]
@@ -794,13 +790,13 @@ events:
         ignore line: [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
         ignore line: [Reading specs from C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/libgomp.spec]
-        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_90ee4.exe' '-v' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_90ee4.']
-        link line: [ C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Lap\\AppData\\Local\\Temp\\ccvrdDTZ.res -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_90ee4.exe C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. CMakeFiles/cmTC_90ee4.dir/OpenMPTryFlag.c.obj --out-implib libcmTC_90ee4.dll.a --major-image-version 0 --minor-image-version 0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -lgomp -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_c64c0.exe' '-v' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_c64c0.']
+        link line: [ C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Lap\\AppData\\Local\\Temp\\cc9XOsQT.res -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_c64c0.exe C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. CMakeFiles/cmTC_c64c0.dir/OpenMPTryFlag.c.obj --out-implib libcmTC_c64c0.dll.a --major-image-version 0 --minor-image-version 0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -lgomp -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o\x0d]
           arg [C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\Lap\\AppData\\Local\\Temp\\ccvrdDTZ.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Lap\\AppData\\Local\\Temp\\cc9XOsQT.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingwthrd] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -824,16 +820,16 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_90ee4.exe] ==> ignore
+          arg [cmTC_c64c0.exe] ==> ignore
           arg [-LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0] ==> dir [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0]
           arg [-LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc] ==> dir [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc]
           arg [-LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
           arg [-LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib] ==> dir [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib]
           arg [-LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..] ==> dir [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..]
-          arg [CMakeFiles/cmTC_90ee4.dir/OpenMPTryFlag.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_c64c0.dir/OpenMPTryFlag.c.obj] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_90ee4.dll.a] ==> ignore
+          arg [libcmTC_c64c0.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -892,8 +888,8 @@ events:
       - "CMakeLists.txt:6 (find_package)"
     description: "Detecting CXX OpenMP compiler info"
     directories:
-      source: "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-182480"
-      binary: "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-182480"
+      source: "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vz6ocd"
+      binary: "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vz6ocd"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -902,10 +898,10 @@ events:
       variable: "OpenMP_COMPILE_RESULT_CXX_fopenmp"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-182480'
+        Change Dir: 'C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vz6ocd'
         
-        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/ninja/win/x64/ninja.exe -v cmTC_df4f6
-        [1/2] C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\c++.exe   -fopenmp -v -o CMakeFiles/cmTC_df4f6.dir/OpenMPTryFlag.cpp.obj -c "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-182480/OpenMPTryFlag.cpp"
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3/bin/ninja/win/x64/ninja.exe" -v cmTC_b3d03
+        [1/2] C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\c++.exe   -fopenmp -v -fdiagnostics-color=always -o CMakeFiles/cmTC_b3d03.dir/OpenMPTryFlag.cpp.obj -c "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vz6ocd/OpenMPTryFlag.cpp"
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\c++.exe
         OFFLOAD_TARGET_NAMES=nvptx-none
@@ -914,8 +910,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r2) 
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_df4f6.dir/OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_df4f6.dir/'
-         C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_MT -D_REENTRANT -U_REENTRANT C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-182480/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_df4f6.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -mthreads -version -fopenmp -o C:\\Users\\Lap\\AppData\\Local\\Temp\\ccIfpWZv.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_b3d03.dir/OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_b3d03.dir/'
+         C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_MT -D_REENTRANT -U_REENTRANT C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vz6ocd/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_b3d03.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -mthreads -version -fdiagnostics-color=always -fopenmp -o C:\\Users\\Lap\\AppData\\Local\\Temp\\cceCU7NL.s
         GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r2) version 14.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 14.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -940,13 +936,13 @@ events:
          C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: 0a151f404c3e06bb380959acc81ec24d
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_df4f6.dir/OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_df4f6.dir/'
-         C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_df4f6.dir/OpenMPTryFlag.cpp.obj C:\\Users\\Lap\\AppData\\Local\\Temp\\ccIfpWZv.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_b3d03.dir/OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_b3d03.dir/'
+         C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_b3d03.dir/OpenMPTryFlag.cpp.obj C:\\Users\\Lap\\AppData\\Local\\Temp\\cceCU7NL.s
         GNU assembler version 2.43.1 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r2) 2.43.1
         COMPILER_PATH=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/;C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../\x0d
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_df4f6.dir/OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_df4f6.dir/OpenMPTryFlag.cpp.'\x0d
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\c++.exe -fopenmp -v  CMakeFiles/cmTC_df4f6.dir/OpenMPTryFlag.cpp.obj -o cmTC_df4f6.exe -Wl,--out-implib,libcmTC_df4f6.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -v  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_b3d03.dir/OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_b3d03.dir/OpenMPTryFlag.cpp.'\x0d
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\c++.exe -fopenmp -v  CMakeFiles/cmTC_b3d03.dir/OpenMPTryFlag.cpp.obj -o cmTC_b3d03.exe -Wl,--out-implib,libcmTC_b3d03.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -v  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\c++.exe
         COLLECT_LTO_WRAPPER=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe
@@ -959,9 +955,9 @@ events:
         COMPILER_PATH=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/;C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
         Reading specs from C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/libgomp.spec
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_df4f6.exe' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_df4f6.'
-         C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Lap\\AppData\\Local\\Temp\\ccQhACoM.res -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_df4f6.exe C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. CMakeFiles/cmTC_df4f6.dir/OpenMPTryFlag.cpp.obj --out-implib libcmTC_df4f6.dll.a --major-image-version 0 --minor-image-version 0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -lstdc++ -lgomp -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o\x0d
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_df4f6.exe' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_df4f6.'\x0d
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_b3d03.exe' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_b3d03.'
+         C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Lap\\AppData\\Local\\Temp\\ccWY4Lbd.res -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_b3d03.exe C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. CMakeFiles/cmTC_b3d03.dir/OpenMPTryFlag.cpp.obj --out-implib libcmTC_b3d03.dll.a --major-image-version 0 --minor-image-version 0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -lstdc++ -lgomp -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o\x0d
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_b3d03.exe' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_b3d03.'\x0d
         
       exitCode: 0
   -
@@ -973,10 +969,10 @@ events:
     message: |
       Parsed CXX OpenMP implicit link information from above output:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1  23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-182480']
+        ignore line: [Change Dir: 'C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1  23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vz6ocd']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/ninja/win/x64/ninja.exe -v cmTC_df4f6]
-        ignore line: [[1/2] C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\c++.exe   -fopenmp -v -o CMakeFiles/cmTC_df4f6.dir/OpenMPTryFlag.cpp.obj -c "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1  23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-182480/OpenMPTryFlag.cpp"]
+        ignore line: [Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3/bin/ninja/win/x64/ninja.exe" -v cmTC_b3d03]
+        ignore line: [[1/2] C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\c++.exe   -fopenmp -v -fdiagnostics-color=always -o CMakeFiles/cmTC_b3d03.dir/OpenMPTryFlag.cpp.obj -c "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1  23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vz6ocd/OpenMPTryFlag.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\c++.exe]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -985,8 +981,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.2.0 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r2) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_df4f6.dir/OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_df4f6.dir/']
-        ignore line: [ C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_MT -D_REENTRANT -U_REENTRANT C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1  23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-182480/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_df4f6.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -mthreads -version -fopenmp -o C:\\Users\\Lap\\AppData\\Local\\Temp\\ccIfpWZv.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_b3d03.dir/OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_b3d03.dir/']
+        ignore line: [ C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_MT -D_REENTRANT -U_REENTRANT C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1  23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vz6ocd/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_b3d03.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -mthreads -version -fdiagnostics-color=always -fopenmp -o C:\\Users\\Lap\\AppData\\Local\\Temp\\cceCU7NL.s]
         ignore line: [GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r2) version 14.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -1011,8 +1007,8 @@ events:
         ignore line: [ C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 0a151f404c3e06bb380959acc81ec24d]
-        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_df4f6.dir/OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_df4f6.dir/']
-        ignore line: [ C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_df4f6.dir/OpenMPTryFlag.cpp.obj C:\\Users\\Lap\\AppData\\Local\\Temp\\ccIfpWZv.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_b3d03.dir/OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_b3d03.dir/']
+        ignore line: [ C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_b3d03.dir/OpenMPTryFlag.cpp.obj C:\\Users\\Lap\\AppData\\Local\\Temp\\cceCU7NL.s]
         ignore line: [GNU assembler version 2.43.1 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64  built by Brecht Sanders  r2) 2.43.1]
         ignore line: [COMPILER_PATH=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/]
         ignore line: [C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/]
@@ -1023,8 +1019,8 @@ events:
         ignore line: [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
         ignore line: [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../\x0d]
-        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_df4f6.dir/OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_df4f6.dir/OpenMPTryFlag.cpp.'\x0d]
-        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\c++.exe -fopenmp -v  CMakeFiles/cmTC_df4f6.dir/OpenMPTryFlag.cpp.obj -o cmTC_df4f6.exe -Wl --out-implib libcmTC_df4f6.dll.a -Wl --major-image-version 0 --minor-image-version 0  -v  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_b3d03.dir/OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_b3d03.dir/OpenMPTryFlag.cpp.'\x0d]
+        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\c++.exe -fopenmp -v  CMakeFiles/cmTC_b3d03.dir/OpenMPTryFlag.cpp.obj -o cmTC_b3d03.exe -Wl --out-implib libcmTC_b3d03.dll.a -Wl --major-image-version 0 --minor-image-version 0  -v  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\c++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe]
@@ -1044,13 +1040,13 @@ events:
         ignore line: [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
         ignore line: [Reading specs from C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/libgomp.spec]
-        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_df4f6.exe' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_df4f6.']
-        link line: [ C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Lap\\AppData\\Local\\Temp\\ccQhACoM.res -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_df4f6.exe C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. CMakeFiles/cmTC_df4f6.dir/OpenMPTryFlag.cpp.obj --out-implib libcmTC_df4f6.dll.a --major-image-version 0 --minor-image-version 0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -lstdc++ -lgomp -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_b3d03.exe' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_b3d03.']
+        link line: [ C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Lap\\AppData\\Local\\Temp\\ccWY4Lbd.res -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_b3d03.exe C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. CMakeFiles/cmTC_b3d03.dir/OpenMPTryFlag.cpp.obj --out-implib libcmTC_b3d03.dll.a --major-image-version 0 --minor-image-version 0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -lstdc++ -lgomp -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o\x0d]
           arg [C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/Users/Lap/CLionProjects/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\Lap\\AppData\\Local\\Temp\\ccQhACoM.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Lap\\AppData\\Local\\Temp\\ccWY4Lbd.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingwthrd] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
@@ -1074,16 +1070,16 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_df4f6.exe] ==> ignore
+          arg [cmTC_b3d03.exe] ==> ignore
           arg [-LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0] ==> dir [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0]
           arg [-LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc] ==> dir [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc]
           arg [-LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
           arg [-LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib] ==> dir [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib]
           arg [-LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LC:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..] ==> dir [C:/Users/Lap/CLionProjects/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..]
-          arg [CMakeFiles/cmTC_df4f6.dir/OpenMPTryFlag.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_b3d03.dir/OpenMPTryFlag.cpp.obj] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_df4f6.dll.a] ==> ignore
+          arg [libcmTC_b3d03.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -1141,8 +1137,8 @@ events:
       - "CMakeLists.txt:6 (find_package)"
     description: "Detecting C OpenMP version"
     directories:
-      source: "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zq6q38"
-      binary: "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zq6q38"
+      source: "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xlkpde"
+      binary: "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xlkpde"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1151,11 +1147,11 @@ events:
       variable: "OpenMP_SPECTEST_C_"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zq6q38'
+        Change Dir: 'C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xlkpde'
         
-        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/ninja/win/x64/ninja.exe -v cmTC_28475
-        [1/2] C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\gcc.exe   -fopenmp -o CMakeFiles/cmTC_28475.dir/OpenMPCheckVersion.c.obj -c "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zq6q38/OpenMPCheckVersion.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\gcc.exe -fopenmp  CMakeFiles/cmTC_28475.dir/OpenMPCheckVersion.c.obj -o cmTC_28475.exe -Wl,--out-implib,libcmTC_28475.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3/bin/ninja/win/x64/ninja.exe" -v cmTC_ccbff
+        [1/2] C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\gcc.exe   -fopenmp -fdiagnostics-color=always -o CMakeFiles/cmTC_ccbff.dir/OpenMPCheckVersion.c.obj -c "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xlkpde/OpenMPCheckVersion.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\gcc.exe -fopenmp  CMakeFiles/cmTC_ccbff.dir/OpenMPCheckVersion.c.obj -o cmTC_ccbff.exe -Wl,--out-implib,libcmTC_ccbff.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -1166,8 +1162,8 @@ events:
       - "CMakeLists.txt:6 (find_package)"
     description: "Detecting CXX OpenMP version"
     directories:
-      source: "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-potse7"
-      binary: "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-potse7"
+      source: "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-toy9q9"
+      binary: "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-toy9q9"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1176,11 +1172,11 @@ events:
       variable: "OpenMP_SPECTEST_CXX_"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-potse7'
+        Change Dir: 'C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-toy9q9'
         
-        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/ninja/win/x64/ninja.exe -v cmTC_135b1
-        [1/2] C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\c++.exe   -fopenmp -o CMakeFiles/cmTC_135b1.dir/OpenMPCheckVersion.cpp.obj -c "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-potse7/OpenMPCheckVersion.cpp"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\c++.exe -fopenmp  CMakeFiles/cmTC_135b1.dir/OpenMPCheckVersion.cpp.obj -o cmTC_135b1.exe -Wl,--out-implib,libcmTC_135b1.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3/bin/ninja/win/x64/ninja.exe" -v cmTC_a65a9
+        [1/2] C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\c++.exe   -fopenmp -fdiagnostics-color=always -o CMakeFiles/cmTC_a65a9.dir/OpenMPCheckVersion.cpp.obj -c "C:/Users/Lap/CLionProjects/Prueba 2/RepasoPruebasAnteriores/Prueba 1, 23-23/prueba1_omp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-toy9q9/OpenMPCheckVersion.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Lap\\CLionProjects\\mingw64\\bin\\c++.exe -fopenmp  CMakeFiles/cmTC_a65a9.dir/OpenMPCheckVersion.cpp.obj -o cmTC_a65a9.exe -Wl,--out-implib,libcmTC_a65a9.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
 ...
